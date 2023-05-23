@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <title>Document</title>
 </head>
 
@@ -14,17 +15,11 @@
     <div class="login">
         <input class="loginInput" placeholder="loginInput" value="Andrey" type="text">
         <input class="password" placeholder="password" value="12345" type="password">
-        <input class="inp" value="" placeholder="номер телефона" type="text">
-        <input class="inp" value="" placeholder="email" type="text">
-        <select class="inp">
-            <option value="1">Мужской</option>
-            <option value="2">Женский</option>
-        </select>
-        <input class="inp" value="" type="date">
+     
         <div class="">
 
             <button class="lodButton">Войти</button>
-            <button class="lodButton">Регистрация</button>
+            <button class="lodButton registerBtn">Регистрация</button>
         </div>
     </div>
 
@@ -46,7 +41,170 @@
 
     <main class="main">
 
-        <div class="main-info">Здесь должна быть главная информация о сайте
+        <div class="main-info">
+            <div class="slide-container">
+  
+            <div class="wrapper">
+              <div class="clash-card barbarian">
+                <div class="clash-card__image clash-card__image--barbarian">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian.png" alt="barbarian" />
+                </div>
+                <div class="clash-card__level clash-card__level--barbarian">Level 4</div>
+                <div class="clash-card__unit-name">The Barbarian</div>
+                <div class="clash-card__unit-description">
+                  The Barbarian is a kilt-clad Scottish warrior with an angry, battle-ready expression, hungry for destruction. He has Killer yellow horseshoe mustache.
+                </div>
+          
+                <div class="clash-card__unit-stats clash-card__unit-stats--barbarian clearfix">
+                  <div class="one-third">
+                    <div class="stat">20<sup>S</sup></div>
+                    <div class="stat-value">Training</div>
+                  </div>
+          
+                  <div class="one-third">
+                    <div class="stat">16</div>
+                    <div class="stat-value">Speed</div>
+                  </div>
+          
+                  <div class="one-third no-border">
+                    <div class="stat">150</div>
+                    <div class="stat-value">Cost</div>
+                  </div>
+          
+                </div>
+          
+              </div> <!-- end clash-card barbarian-->
+            </div> <!-- end wrapper -->
+            
+            <div class="wrapper">
+              <div class="clash-card archer">
+                <div class="clash-card__image clash-card__image--archer">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/archer.png" alt="archer" />
+                </div>
+                <div class="clash-card__level clash-card__level--archer">Level 5</div>
+                <div class="clash-card__unit-name">The Archer</div>
+                <div class="clash-card__unit-description">
+                  The Archer is a female warrior with sharp eyes. She wears a short, light green dress, a hooded cape, a leather belt and an attached small pouch.
+                </div>
+          
+                <div class="clash-card__unit-stats clash-card__unit-stats--archer clearfix">
+                  <div class="one-third">
+                    <div class="stat">25<sup>S</sup></div>
+                    <div class="stat-value">Training</div>
+                  </div>
+          
+                  <div class="one-third">
+                    <div class="stat">24</div>
+                    <div class="stat-value">Speed</div>
+                  </div>
+          
+                  <div class="one-third no-border">
+                    <div class="stat">300</div>
+                    <div class="stat-value">Cost</div>
+                  </div>
+          
+                </div>
+          
+              </div> <!-- end clash-card archer-->
+            </div> <!-- end wrapper -->
+            
+            <div class="wrapper">
+              <div class="clash-card giant">
+                <div class="clash-card__image clash-card__image--giant">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/giant.png" alt="giant" />
+                </div>
+                <div class="clash-card__level clash-card__level--giant">Level 5</div>
+                <div class="clash-card__unit-name">The Giant</div>
+                <div class="clash-card__unit-description">
+                  Slow, steady and powerful, Giants are massive warriors that soak up huge amounts of damage. Show them a turret or cannon and you'll see their fury unleashed!
+                </div>
+          
+                <div class="clash-card__unit-stats clash-card__unit-stats--giant clearfix">
+                  <div class="one-third">
+                    <div class="stat">2<sup>M</sup></div>
+                    <div class="stat-value">Training</div>
+                  </div>
+          
+                  <div class="one-third">
+                    <div class="stat">12</div>
+                    <div class="stat-value">Speed</div>
+                  </div>
+          
+                  <div class="one-third no-border">
+                    <div class="stat">2250</div>
+                    <div class="stat-value">Cost</div>
+                  </div>
+          
+                </div>
+          
+              </div> <!-- end clash-card giant-->
+            </div> <!-- end wrapper -->
+            
+             <div class="wrapper">
+              <div class="clash-card goblin">
+                <div class="clash-card__image clash-card__image--goblin">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/goblin.png" alt="goblin" />
+                </div>
+                <div class="clash-card__level clash-card__level--goblin">Level 5</div>
+                <div class="clash-card__unit-name">The Goblin</div>
+                <div class="clash-card__unit-description">
+                  These pesky little creatures only have eyes for one thing: LOOT! They are faster than a Spring Trap, and their hunger for resources is limitless.
+                </div>
+          
+                <div class="clash-card__unit-stats clash-card__unit-stats--goblin clearfix">
+                  <div class="one-third">
+                    <div class="stat">30<sup>S</sup></div>
+                    <div class="stat-value">Training</div>
+                  </div>
+          
+                  <div class="one-third">
+                    <div class="stat">32</div>
+                    <div class="stat-value">Speed</div>
+                  </div>
+          
+                  <div class="one-third no-border">
+                    <div class="stat">100</div>
+                    <div class="stat-value">Cost</div>
+                  </div>
+          
+                </div>
+          
+              </div> <!-- end clash-card goblin-->
+            </div> <!-- end wrapper -->
+            
+            <div class="wrapper">
+              <div class="clash-card wizard">
+                <div class="clash-card__image clash-card__image--wizard">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard.png" alt="wizard" />
+                </div>
+                <div class="clash-card__level clash-card__level--wizard">Level 6</div>
+                <div class="clash-card__unit-name">The Wizard</div>
+                <div class="clash-card__unit-description">
+                  The Wizard is a terrifying presence on the battlefield. Pair him up with some of his fellows and cast concentrated blasts of destruction on anything, land or sky!
+                </div>
+          
+                <div class="clash-card__unit-stats clash-card__unit-stats--wizard clearfix">
+                  <div class="one-third">
+                    <div class="stat">5<sup>M</sup></div>
+                    <div class="stat-value">Training</div>
+                  </div>
+          
+                  <div class="one-third">
+                    <div class="stat">16</div>
+                    <div class="stat-value">Speed</div>
+                  </div>
+          
+                  <div class="one-third no-border">
+                    <div class="stat">4000</div>
+                    <div class="stat-value">Cost</div>
+                  </div>
+          
+                </div>
+          
+              </div> <!-- end clash-card wizard-->
+            </div> <!-- end wrapper -->
+            
+          </div> <!-- end container -->
 
 
         </div>
@@ -133,11 +291,29 @@
         </div>
 
     </main>
+    
+   
+        
+        <!-- HTML -->
+       
+        <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+        <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+        <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+        <script src="https://cdn.amcharts.com/lib/5/radar.js"></script>
+        <style>
+            #chartdiv {
+              width: 100%;
+              height: 400px;
+            }
+            </style>
+    <script src="./JQuerry.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="module" src="./index.js"></script>
+    <script type="module" src="./test1.js"></script>
+    <script type="module" src="./test2.js"></script>
+    <script src="./card.js"></script>
 
 
-
-
-    <script src="./index.js"></script>
 </body>
 
 </html>

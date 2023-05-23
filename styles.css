@@ -1,0 +1,190 @@
+input{
+    display: inline-block;
+    margin:10px  0;
+
+}
+label{
+    display: block;
+    margin: 0 auto;
+}
+
+.container{
+    text-align: center;
+    display: block;
+}
+
+
+
+.login{
+    text-align: center;
+    margin: 10px auto;
+    margin-top: 300px;
+}
+
+.qw{
+    background-color: blueviolet;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('./images/c155079.jpg') no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__content{
+    display: flex;
+    height: 200px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.781);
+}
+
+.header__text{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__lozung{
+    padding: 20px;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.header__btn{
+    width: 150px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.479);
+    border: none;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.89);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.header__nav{
+    display: none;
+    justify-content: center;
+    box-shadow: -1px -20px 20px 7px rgba(255, 255, 255, 0.164);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.164);
+}
+
+.header__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 600px
+}
+
+.header__item{
+    color: #bbbbbb;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    background-color: #262626;
+    cursor: pointer;
+}
+
+.header__item:hover {
+    text-decoration: underline;
+}
+
+/* .main__content{
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+} */
+
+.hidden{
+    display: none;
+}
+
+
+.test1__submit-button{
+    background-color: bisque;
+    font-size: 20px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+
+.test1__submit-button:hover{
+    background-color: aquamarine;
+}
+
+.tab-1{
+    text-align: center;
+}
+
+.tab-2{
+    text-align: center;
+}
+.tab-3{
+    text-align: center;
+}
+
+.main-info{
+    text-align: center;
+    display: none;
+}
+
+.login{
+    display: flex;
+    width: 600px;
+  
+    flex-direction: column;
+    align-items:center;
+    border: 1px solid;
+    border-radius:10px;
+    background: linear-gradient( rgba(35,43,85,0.75), rgba(35,43,85,0.55));
+    background-size: cover;
+   
+    
+}
+
+
+
+select{
+width: 312px;
+height: 32px;
+padding: 0;
+border:1px solid;
+border-radius:10px;
+margin-bottom:10px;
+}
+input{
+    width: 300px;
+    padding: 0;
+    border-width: 1px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius:10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.lodButton{
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 20px;
+    border-radius:10px;
+    width: 140px;
+    background-color:azure;
+    transition: all 0.5s;
+}
+
+.lodButton:hover{
+    background-color:cadetblue;
+}
